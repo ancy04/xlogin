@@ -15,7 +15,7 @@ function App() {
     }else if(user ==="user" && pwd==="password"){
         setMsg("Welcome, user")
     }else if(user !=="user" || pwd !== "password"){
-      alert("Invalid username or password")
+      setMsg("Invalid username or password")
     }
 
   }

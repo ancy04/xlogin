@@ -14,7 +14,7 @@ function App() {
       alert("Please fill out this field");
     }else if(user ==="user" && pwd==="password"){
         setMsg("Welcome, user")
-    }else{
+    }else if(user !=="user" || pwd !== "password"){
       alert("Invalid username or password")
     }
 
